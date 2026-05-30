@@ -75,11 +75,13 @@ After get optical-SAR diffusion model, we can transfer the optical image in HOSS
 If you find this work useful for your research, please cite our paper:
 
 ```bibtex
-@inproceedings{zhao2026mos,
-  title={MOS: Mitigating Optical-SAR Modality Gap for Cross-Modal Ship Re-Identification},
-  author={Zhao, Yujian and Liu, Hankun and Niu, Guanglin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026}
+@InProceedings{Zhao_2026_CVPR,
+    author    = {Zhao, Yujian and Liu, Hankun and Niu, Guanglin},
+    title     = {MOS: Mitigating Optical-SAR Modality Gap for Cross-Modal Ship Re-Identification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {30335-30345}
 }
 ```
 
