@@ -7,6 +7,7 @@
 Official PyTorch implementation of **MOS**, a novel framework for cross-modal ship re-identification between optical and synthetic aperture radar (SAR) imagery.
 
 ## 📰 News
+- **[2026.09]** Release of the pesudo-Optical2SAR samples.
 - **[2026.03]** Initial release of the codebase.
 - **[2026.02]** Our paper is accepted to **CVPR 2026**! 
 
@@ -68,6 +69,8 @@ python test.py --config_file configs/hoss_transoss.yml TEST.WEIGHT 'the checkpoi
 Please refer [BBDM](https://github.com/xuekt98/BBDM) to train diffusion model. We pretrain the BBDM for 100 epoch on [QXS-SAROPT dataset](https://github.com/yaoxu008/QXS-SAROPT) and fine-tune 250 epochs on the HOSS ReID training set.
 
 After get optical-SAR diffusion model, we can transfer the optical image in HOSS ReID test set to SAR modality. And the generated image dir should be specified in the `self.queryAdd_dir` and `self.galleryAdd_dir` variables within `/datasets/hoss.py`.
+
+The generated images can be downloaded in [here](https://drive.google.com/file/d/12jP6t9ZFtGyIcLr-hlATYMkZ6CJzkQbi/view?usp=sharing). Note that the infusion weight \tau is 0.02. There was an accidental typo error in the paper.
 
 
 ## 📄 Citation
